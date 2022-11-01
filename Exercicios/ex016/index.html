@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando Links</title>
+    <style>
+        /*
+        #  = id
+        .  = class
+        :  = pseudo - class
+        :: = pseudo - element
+        >  = children
+        */
+        
+        a {
+            color: green;     /*cor do link*/
+            text-decoration: none;
+        }
+
+        a:visited {             /*cor do link após visitado*/
+            color: #490079;
+        }
+        
+        a:hover {              
+            color: #6700b5;  /*cor do link quando passar o mouse em cima*/
+            text-decoration: underline; 
+        }
+
+        a:active {
+            color: blue;     /*cor do link quando eu clicar/segurar no link*/
+        }
+        
+        .especial {
+            background-color: #49007963;
+        }
+
+        .especial::before {
+            content: '->';
+            color: #000000
+        }
+
+        .especial::after {
+            content: '<-';
+            color: #000000;
+        }
+      
+    </style>
+</head>
+<body>
+<h1>Personalizando links</h1>
+        <ul>
+        <li><a href="https://www.instagram.com/isaac_portela/" target="_blank" rel="external">Perfil do Instagram</a></li>
+        <li><a href="https://twitter.com/TellHurtz" target=_blank rel="external">Perfil do Twitter</a></li>
+        <li><a href="https://www.youtube.com/c/CursoemV%C3%ADdeo" target="_blank" rel="external" class="especial">Canal do Youtube</a></li>
+    </ul>
+</div>
+    
+    
+</body>
+</html>

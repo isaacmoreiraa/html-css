@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Alecive-Flatwoken-Apps-Player-Video.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="midia/Wikipedia-Flags-IE-Ireland-Flag.ico" type="image/x-icon">
+    <title>Videos</title>
+    <style>
+        body{
+            text-align: center;
+            background-image: linear-gradient(to right, rgba(70, 133, 215, 0.438), rgba(71, 0, 122, 0.185))
+        }
+
+        h1 {
+            color: rgb(0, 49, 68);
+            background-color: rgba(0, 49, 49, 0.199);
+            font-weight: bold;
+            font-size: 2em;
+            border-radius: 5px;
+            box-shadow: 0px 0px 5px black;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Inserindo vídeos hospedados localmente.</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+
+    <video width="300" poster="imagens/capa-meuvideo.png" controls loop>
+        <source src="midia/meuvideo.mp4" type="video/mp4">
+    </video>
+   
+    <h1>Inserindo vídeos externos</h1>
+    <p>Este vídeo está hospedado em outro servidor.</p>
+    
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ycDLfQ1Cv_Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   
+</body>
+</html>

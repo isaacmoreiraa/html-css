@@ -1,0 +1,34 @@
+@charset "UFT-8";
+
+*{ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    
+} /*Fonte utilizada*/
+
+body {
+    height: 100%;
+    background-image: linear-gradient(to right, #BDE038, #7c922d 70%); /*plano de fundo degradê*/
+}
+
+main {
+      background-image: linear-gradient(to right, #10454F, #0a2a30); /*fundo das letras com degrade*/
+      border-radius: 20px; /*Borda arredondada*/
+      box-shadow: 5px 5px 15px #150053a1; /*Sombra. o quanto ela vai para o lado, o quanto vai pra baixo e quanto ela vai espalhar. */
+      width: 600px; /*Tamanho do fundo onde está o texto*/
+      padding: 10px; /*Espaço no fim do texto*/
+      margin: auto; /*Centralizar*/
+}
+
+h1 {
+    color: #A3AB78; /*cor do h1*/
+    text-align: center; /*centralizar h1*/
+    text-shadow: 0px 1px 3px #0000007a; /* sombra, deslocamento lateral, deslocamento pra baixo e espalhamento*/
+}
+
+h2 {
+    color: #A3AB78; /*cor do h2*/
+}
+
+p{
+    text-align: justify; /*"arruma" as letras*/
+    color: #A3AB78; /*color do paragrafo*/
+}

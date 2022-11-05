@@ -95,6 +95,7 @@ main p {
     text-align: justify;
     text-indent: 30px;
     margin-bottom: 10px;
+    line-height: 1.7em;
 }
 
 main img.pequena {

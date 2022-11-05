@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --cor0: #dec6eb;
+    --cor1: #bd83e1;
+    --cor2: #a43ddc;
+    --cor3: #782fa8;
+    --cor4: #421a5c;
+    --cor5: #26063d;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Teko', sans-serif;
+}
+
+* {
+    margin: 0px;     /*Iniciar o projeto sem margem e padding.*/
+    padding: 0px;
+}
+
+body {
+    background-color: #dec6eb;
+    font-family: var(--fonte-padrao);
+}
+
+header {
+    min-height: 50px;
+    background-image: linear-gradient(to top, #421a5c, #bd83e1);
+    font-family: var(--fonte-padrao);
+    text-align: center;
+    padding-top: 40px;
+}
+
+header h1 {
+    color: white;
+    text-shadow: 2px 0px 4px black;
+    font-family: var(--fonte-destaque);
+    font-size: 3em;
+    font-weight: normal;
+}
+
+header p {
+    color: white;
+    text-shadow: 0px 0px 4px black;
+    padding: 20px;
+}
+
+nav {
+    background-color: #421a5c;
+    padding: 4px;
+    box-shadow: 0px 4px 7px transparent;
+}
+
+nav a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition-duration: 0.3s;
+}
+
+nav a:hover {
+    background-color: #a43ddc;
+    color: #421a5c;
+}
+
+main {
+    background-color: white;
+    max-width: 800px;
+    min-width: 280px;
+    border-radius: 0px 0px 12px 12px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 13px;
+    box-shadow: 0px 0px 10px black;
+}
+
+main h1 {
+    color: #461369;
+    font-family: var(--fonte-destaque);
+    margin-bottom: 10px;
+    font-size: 2.2em;
+    font-weight: bolder;
+}
+
+main h2 {
+    color: #461369;
+    margin-bottom: 10px;
+}
+
+main p {
+    text-align: justify;
+    text-indent: 30px;
+    margin-bottom: 10px;
+}
+
+main img.pequena {
+    max-width: 250px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+main img.grande {
+    max-width: 600px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+main img.media {
+    max-width: 700px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+main img {
+    width: 100%;
+    margin-top: 10px;
+}
+
+main picture p {
+    font-size: 0.7em;
+    text-align: center;
+}
+
+footer {
+    color: white;
+    background-color: #421a5c;
+    text-align: center;
+    font-size: 14px;
+    padding: 5px;
+}
+
+footer a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: #bd83e1;
+    text-decoration: underline;
+    transition-duration: 0.3s;
+}
+
+
+

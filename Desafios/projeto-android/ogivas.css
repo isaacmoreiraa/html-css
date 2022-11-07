@@ -3,19 +3,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
 
 :root {
-    --cor0: #c5d4eb;
-    --cor1: #83a9e1;
-    --cor2: #3d97dc;
-    --cor3: #2f72a8;
-    --cor4: #1a365c;
-    --cor5: #061e3d;
+    --cor0: #c6ebe6;
+    --cor1: #83e1db;
+    --cor2: #69efe4;
+    --cor3: #3ccdc1;
+    --cor4: #1a6259;
+    --cor5: #0a4244;
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Teko', sans-serif;
 }
 
 * {
-    margin: 0px;     /*Iniciar o projeto sem margem e padding.*/
+    margin: 0px;
     padding: 0px;
 }
 
@@ -24,36 +24,32 @@ body {
     font-family: var(--fonte-padrao);
 }
 
-a.externo::after {     
-    content:'\00A0\1F517';
-}
-
 header {
     min-height: 50px;
-    background-image: linear-gradient(to top, #061d3d, #2f6aa8);
+    background-image: linear-gradient(to top, #1a6259, #83e1db);
     font-family: var(--fonte-padrao);
     text-align: center;
     padding-top: 40px;
 }
 
-header  h1 {
+header h1 {
     color: white;
     text-shadow: 2px 0px 4px black;
-    font-family: var(--fonte-destaque);
-    font-size: 3em;    
+    font-family: var(--fonte-destaque);;
+    font-size: 3em;
     font-weight: normal;
 }
 
-header  p {
+header p {
     color: white;
     text-shadow: 0px 0px 4px black;
     padding: 20px;
 }
 
 nav {
-    background-color: #061d3d;
+    background-color: var(--cor4);
     padding: 4px;
-    box-shadow: 0px 4px 7px black;
+    
 }
 
 nav a {
@@ -66,9 +62,9 @@ nav a {
     transition-duration: 0.3s;
 }
 
-nav > a:hover {
-    background-color: #2f6aa8;
-    color: #06123d 
+nav a:hover {
+    background-color: var(--cor3);
+    color: var(--cor4);
 }
 
 main {
@@ -83,58 +79,40 @@ main {
 }
 
 main h1 {
-    color: #1a365c;
+    color: var(--cor4);
     font-family: var(--fonte-destaque);
-    line-height: 1.7em;
-    font-size: 40px;
-    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 2.2em;
+    font-weight: bolder;
 }
 
 main h2 {
-    color: #1a365c;
-    font-family: var(--fonte-destaque);
-    font-weight: bold;
-    background-image: linear-gradient(to right, #83a9e1, transparent);
+    color: var(--cor4);
     margin-bottom: 10px;
-    text-indent: 10px;
-    padding-top: 2px;
-    font-size: 1.3em;
 }
 
 main p {
     text-align: justify;
     text-indent: 30px;
     margin-bottom: 10px;
-   
-    
-}
-
-main article picture p {
-    margin-top: 4px;
-    font-size: 1.0em;
-}
-
-main a {
-    background-color: #3d97dc;
-    padding: 2px 5px;
-    text-decoration: none;
-    font-weight: bold;
-    color: var(--cor4)
-}
-
-main a:hover {
-    text-decoration: underline;
-    color:#061d3d
+    line-height: 1.5em;
 }
 
 main img {
+    display: block;
+    margin: auto;
     width: 100%;
-    margin-top: 10px;
+}
+
+main article picture p {
+    text-align: center;
+    font-size: 0.9em;
+
 }
 
 footer {
-    background-color: #1a365c;
     color: white;
+    background-color: var(--cor4);
     text-align: center;
     font-size: 14px;
     padding: 5px;
@@ -142,11 +120,11 @@ footer {
 
 footer a {
     color: white;
-    font-weight: bold;
+    font-weight: bolder;
     text-decoration: none;
 }
-   
+
 footer a:hover {
-    color: #3d97dc;
-    transition-duration: 0.3s;    
+    color: var(--cor2);
+    transition-duration: 0.4s;
 }

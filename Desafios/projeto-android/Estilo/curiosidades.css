@@ -132,6 +132,25 @@ main img {
     margin-top: 10px;
 }
 
+hr {
+    padding: 1px;
+    border-radius: 5px;
+    background-color: black;
+}
+
+div {
+    margin-top: 10px;
+    background-color: #1a365c;
+    padding: 5px;
+}
+
+div p {
+    color: white;
+    margin-top: 6px;
+    text-align: center;
+    font-weight: bold;
+}
+
 footer {
     background-color: #1a365c;
     color: white;
